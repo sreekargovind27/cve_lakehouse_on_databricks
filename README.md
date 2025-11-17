@@ -29,12 +29,25 @@ GOLD: SQL Analytics & Visualizations
 
 ## 📁 Repository Structure
 ```
-├── convert_to_parquet.py          # Local: JSON → Parquet conversion
-├── 01_ingest_cvelist.ipynb        # Bronze: Raw data ingestion & filtering
-├── 02_bronze_to_silver.ipynb      # Silver: Data normalization
-└── 03_exploratory_analysis.ipynb  # Gold: SQL analytics & visualizations
-```
+├── src_source                     # Source Files
+├├── 01_ingest_cvelist.py
+├├── 02_bronze_to_silver.py
+└├──  03_exploratory_analysis.sql
 
+├── src
+├├── convert_to_parquet.py          # Local: JSON → Parquet conversion
+├├── 01_ingest_cvelist.ipynb        # Bronze: Raw data ingestion & filtering
+├├── 02_bronze_to_silver.ipynb      # Silver: Data normalization
+└├── 03_exploratory_analysis.ipynb  # Gold: SQL analytics & visualizations
+
+├── Screenshots
+├├── bronze_ss
+├├├── .png ... 
+├├── silver_ss
+├├├── .png ... 
+└├── gold_ss
+├├├── .png ... 
+```
 ---
 
 ## 🚀 Quick Start
